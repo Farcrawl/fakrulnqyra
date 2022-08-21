@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kuala_Lumpur
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kuala_Lumpur
+X-LIC-LOCATION:Asia/Kuala_Lumpur
+BEGIN:STANDARD
+TZNAME:+08
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220821T103059Z
+UID:1661077842669-41433@ical.marudot.com
+DTSTART;TZID=Asia/Kuala_Lumpur:20221001T110000
+DTEND;TZID=Asia/Kuala_Lumpur:20221001T160000
+SUMMARY:Walimatul Urus Fakrullah dan Syaqirah 2022
+URL:https://farcrawl.github.io/fakrulnqyra/
+DESCRIPTION:Ya Allah\, berkatilah majlis perkahwinan ini\, limpahkanlah baraqah dan rahmat kepada kedua mempelai ini\, Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka di dunia dan di akhirat dan sempurnakanlah agama mereka dengan berkat ikatan ini.\n					
+LOCATION:Pusat Komuniti Lembah Pantai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Walimatul Urus Fakrullah dan Syaqirah 2022
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
