@@ -16,7 +16,7 @@ var config = {
   let formMessage = firebase.database().ref('RSVP');
   
   //listen for submit event
-  document.getElementById('rsvp')
+  document.getElementById('RSVP')
   document.addEventListener('submit', formSubmit);
   
   //Submit form
@@ -33,13 +33,15 @@ var config = {
     //send message values
     sendMessage(kehadiran,nama,notel,bilhadir,slothadir,ucapan);
   
-    //Show Alert Message
-    document.querySelector('.alert').style.display = 'block';
+    // //Hide Alert Message After Seven Seconds
+    // setTimeout(function() {
+    //   document.querySelector('.alert1').style.display = 'none';
+    // }, 7000);
+        
+    // //Show Alert Message
+    // document.querySelector('.alert1').style.display = 'block';
   
-    //Hide Alert Message After Seven Seconds
-    setTimeout(function() {
-      document.querySelector('.alert').style.display = 'none';
-    }, 7000);
+
   
     //Form Reset After Submission
     document.getElementById('RSVP').reset();
