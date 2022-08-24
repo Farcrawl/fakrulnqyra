@@ -16,9 +16,8 @@ var config = {
   let formMessage = firebase.database().ref('RSVP');
   
   //listen for submit event
-  document
-    .getElementById('rsvp')
-    .addEventListener('submit', formSubmit);
+  document.getElementById('rsvp')
+  document.addEventListener('submit', formSubmit);
   
   //Submit form
   function formSubmit(e) {
@@ -43,7 +42,7 @@ var config = {
     }, 7000);
   
     //Form Reset After Submission
-    document.getElementById('registrationForm').reset();
+    document.getElementById('RSVP').reset();
   }
   
   //Send Message to Firebase
